@@ -1,8 +1,30 @@
-# React + Vite
+# 🐼 Pandaflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Neste projeto final para a conclusão do curso da Campinho Digital, desenvolvi um site com o framework React + Vue, tendo como referência alguns sites já existentes, como IMD, Netflix e o Rotten Tomatoes, com o intuito de deixá-lo o mais fidedigno possível.
 
-Currently, two official plugins are available:
+Dentre as opções de API, optei pelo tema de filmes, que é uma das minhas paixões.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Consumindo os dados diretamente da API do Spotify.
+
+# 📑 Passo a Passo para Reproduzir
+- Através do Postman, realizei alguns endpoints na API:
+
+`Método POST` foi necessário utilizar as credenciais abaixo para conseguir minha API Key.
+
+```
+https://ecom-back-strapi.onrender.com/api/auth/local
+```
+
+```
+{
+  "identifier": "campinho@mail.com",
+  "password": "Campinho@12"
+}
+```
+
+`MÉTODO GET` foi necessário para:
+- Autorizar o uso da API com nossa chave.
+- Listar todos os produtos: GET /movies
+- Detalhes de um produto específico: GET /movies/:id
+
+`JSON's` foram elaborados e enviados para a API, com o intuito de incluir novos filmes que não estavam disponíveis no catálogo.
