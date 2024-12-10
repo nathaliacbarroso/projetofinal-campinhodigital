@@ -1,0 +1,68 @@
+/* Estilos para o container da grid */
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* A grid que vai exibir os filmes */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ajusta automaticamente as colunas */
+  gap: 20px; /* Espaçamento entre os cards */
+  max-width: 1200px; /* Limita a largura da grid */
+  width: 100%; /* Garante que a grid ocupe 100% da largura do container */
+  margin: 0 auto; /* Garante que a grid tenha margem automática e fique no centro */
+}
+
+/* Estilos para os cards */
+.card {
+  border: 1px solid #ccc; /* Borda para os cards */
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transição suave para o hover */
+}
+
+/* Efeito de transição para o card (aumento de escala e sombra) */
+.card:hover {
+  transform: translateY(-10px); /* Eleva o card ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+}
+
+/* Estilos para a imagem do filme */
+.card img {
+  max-width: 100%; /* A imagem ocupa 100% da largura do card */
+  max-height: 250px; /* Limita a altura máxima da imagem */
+  object-fit: cover; /* Garante que a imagem seja cortada proporcionalmente, sem distorção */
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out; /* Transição suave para o efeito de zoom */
+}
+
+/* Efeito de transição na imagem (zoom ao passar o mouse) */
+.card img:hover {
+  transform: scale(1.05); /* Aumenta um pouco a escala da imagem ao passar o mouse */
+}
+
+/* Estilos para o título do filme */
+.card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Estilos para as descrições e informações adicionais */
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.card strong {
+  font-weight: bold;
+}
