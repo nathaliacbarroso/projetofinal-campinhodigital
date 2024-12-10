@@ -1,10 +1,9 @@
 # 🐼 Pandaflix
 
-Neste projeto final para a conclusão do curso da Campinho Digital, desenvolvi um site com o framework React + Vue, tendo como referência alguns sites já existentes, como IMD, Netflix e o Rotten Tomatoes, com o intuito de deixá-lo o mais fidedigno possível.
+Este projeto foi desenvolvido como conclusão do curso da Campinho Digital, com o objetivo de criar uma aplicação front-end utilizando o React. A aplicação consome dados de uma API de filmes e exibe informações detalhadas, como título, diretor, data de lançamento e avaliação.
 
-Dentre as opções de API, optei pelo tema de filmes, que é uma das minhas paixões.
+Neste projeto, a estilização do sistema foi pensada para refletir eventos e datas comemorativas de dezembro. Além de criar uma atmosfera mais acolhedora para os usuários, a inclusão de elementos natalinos e a homenagem ao Dezembro Vermelho são maneiras de sensibilizar o público para causas importantes. Além disso, usei como referência alguns sites já existentes, como IMD, Netflix e o Rotten Tomatoes, com o intuito de deixá-lo o mais fidedigno possível, apresentando os dados da API do meu jeitinho.
 
-Consumindo os dados diretamente da API do Spotify.
 
 # 📑 Passo a Passo para Reproduzir
 - Através do Postman, realizei alguns endpoints na API:
