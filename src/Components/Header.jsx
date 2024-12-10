@@ -70,10 +70,6 @@ const carrouselImages = [
         {/* Link para a imagem com navegação */}
        
 
-
-
-
-
        {/* ************* 
           No mobile está duplicado pois o código abaixo renderiza uma imagem tambem.
           Para adicionar um link ao slide sem duplicar basta remover o código abaixo, e adicionar a
@@ -99,18 +95,5 @@ const carrouselImages = [
       </div>
     );
   };
-
-  {/* Seção sobre o Pandaflix */}
-  <div className="about">
-  <h2>O Pandaflix</h2>
-  <p>
-    é uma base de dados online que reúne informações sobre filmes de
-    diversos gêneros. Servindo como uma espécie de enciclopédia virtual, nós
-    disponibilizamos. Se você é um fã de entretenimento em busca de uma gama
-    diversificada de perspectivas com curadoria em um formato fácil de entender,
-    nós o ajudaremos a encontrar o que você está a fim e abrir seus olhos para
-    novas coisas para aproveitar.
-  </p>
-</div>
 
   export default Header;
