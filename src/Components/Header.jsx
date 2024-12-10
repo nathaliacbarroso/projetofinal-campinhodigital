@@ -43,11 +43,12 @@ const carrouselImages = [
     useEffect(() => {
       const interval = setInterval(nextImage, 7000); // Troca a imagem a cada 7 segundos
       return () => clearInterval(interval); // Limpa o intervalo quando o componente for desmontado
-    }, []);
+    }, [currentImageIndex]); // << adicionar o currentImageIndex como dependencia do array no useEffect para evitar o bug de passar de imagem após os 7 segundos mesmo já tendo trocado de slide no meio do tempo.
   
     return (
       <div className="header">
         {/* Imagem de fundo com texto sobreposto */}
+        <a href={carrouselImages[currentImageIndex].link}>
         <div
           className="header-background"
           style={{
@@ -60,13 +61,30 @@ const carrouselImages = [
             <p></p> {/* Se eu quiser escrever algo sobre o carrossel */}
           {/*</div>*/}
         </div> 
+        </a>
   
         {/* Botões de navegação */}
         <button onClick={prevImage} className="prev-button">←</button>
         <button onClick={nextImage} className="next-button">→</button>
   
         {/* Link para a imagem com navegação */}
-        <a
+       
+
+
+
+
+
+       {/* ************* 
+          No mobile está duplicado pois o código abaixo renderiza uma imagem tambem.
+          Para adicionar um link ao slide sem duplicar basta remover o código abaixo, e adicionar a
+          tag <a> envolvendo a div com a class "header-background" como implementado no exemplo acima
+        *********** */}
+
+
+
+
+
+        {/* <a
           href={carrouselImages[currentImageIndex].link} // Link para a página associada à imagem
           target="_blank" // Abre o link em uma nova aba
           rel="noopener noreferrer" // Segurança ao abrir em nova aba
@@ -77,7 +95,7 @@ const carrouselImages = [
             alt="Carrossel"
             className="carrousel-image"
           />
-        </a>
+        </a> */}
       </div>
     );
   };
