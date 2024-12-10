@@ -4,8 +4,6 @@ Neste projeto final para a conclusão do curso da Campinho Digital, desenvolvi u
 
 Dentre as opções de API, optei pelo tema de filmes, que é uma das minhas paixões.
 
-Consumindo os dados diretamente da API do Spotify.
-
 # 📑 Passo a Passo para Reproduzir
 - Através do Postman, realizei alguns endpoints na API:
 
