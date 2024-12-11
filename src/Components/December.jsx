@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import '../styles/Card.css'; // Se estiver em uma pasta de estilos, acima do componente
+import 'src\styles\Card.css'; // Se estiver em uma pasta de estilos, acima do componente
 
 
-const Card = ({ data }) => { 
+const December = ({ data }) => { 
 
     const [movies, setMovies] = useState([]); // Estado para armazenar os dados
     const apiUrl = 'https://ecom-back-strapi.onrender.com/api/movies'; //Colocar o URL da API de filmes que irei utilizar
@@ -62,4 +62,4 @@ const Card = ({ data }) => {
     );
 }
 
-export default Card;
+export default December;

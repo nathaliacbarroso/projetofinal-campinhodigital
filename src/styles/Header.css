@@ -92,6 +92,16 @@
     margin: 0 auto;
     font-family: "Roboto Condensed", "Oswald", Helvetica, sans-serif;
   }
+
+  /* Exemplo de como aplicar um estilo à classe 'Dezembro Vermelho' */
+.Dezembro.Vermelho {
+  background-color: #f0f0f0;  /* Cor de fundo */
+  color: #333;  /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  font-size: 18px;  /* Tamanho da fonte */
+}
+
+/* Você também pode adicionar outras classes ou elementos para estilizar */
   
   /* Responsividade para telas menores */
   @media (min-width: 200px) and (max-width: 728px){
