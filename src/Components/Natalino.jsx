@@ -22,7 +22,7 @@ const ApiNatal = ({ data }) => {
             console.log(response.data.data); // Verificando os dados no console
 
             // IDs dos filmes que eu quero exibir (ajustar conforme for necessário)
-            const selectedIds = [17, 18, 19, 20, 21, 22];
+            const selectedIds = [23, 25, 26];
 
             // Filtrando os filmes para exibir apenas os com os IDs selecionados
             const filteredMovies = response.data.data.filter(movie => selectedIds.includes(movie.id));

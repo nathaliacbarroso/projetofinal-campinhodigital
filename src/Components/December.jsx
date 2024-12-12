@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import "../styles/Card.css" 
+import "../styles/Card.css"
 
-const ApiRed = ({ data }) => { 
+const ApiRed = ({ data }) => {
 
     const [movies, setMovies] = useState([]); // Estado para armazenar os dados
     const apiUrl = 'https://ecom-back-strapi.onrender.com/api/movies'; //Colocar o URL da API de filmes que irei utilizar
@@ -30,6 +30,8 @@ const ApiRed = ({ data }) => {
 
         } catch (error) {
             console.error(`Erro ao buscar dados de ${endpoint}:`, error);
+
+            setMessage("Erro ao carregar os filmes. Tente novamente mais tarde.");
         }
     };
 

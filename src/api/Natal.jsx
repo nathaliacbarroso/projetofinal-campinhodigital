@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ApiRed from '../Components/December'; //Importando December
+import ApiNatal from '../Components/Natalino'; //Importando December
 import Menu from '../Components/Menu'; // Importando Menu
 import Header from '../Components/Header'; // Importando Cabeçalho
 import Footer from '../Components/Footer'; // Importando Rodapé
@@ -18,7 +18,7 @@ function Natal() {
 
 São histórias que nos lembram do verdadeiro significado do Natal: o valor da família, a importância do amor ao próximo e a magia de estarmos juntos. Reúna a família, prepare um chocolate quente e aproveite esses filmes que vão tornar sua temporada de festas ainda mais encantadora!</p>
         </div>
-        <ApiRed />
+        <ApiNatal />
       </main>
       <Footer /> {/* Adicionando Rodapé no final */}
     </>

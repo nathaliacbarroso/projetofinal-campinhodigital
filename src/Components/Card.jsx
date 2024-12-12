@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import '../styles/Card.css'; // Se estiver em uma pasta de estilos, acima do componente
 
 
-const Card = ({ data }) => { 
+const Card = ({ data }) => {
 
     const [movies, setMovies] = useState([]); // Estado para armazenar os dados
     const apiUrl = 'https://ecom-back-strapi.onrender.com/api/movies'; //Colocar o URL da API de filmes que irei utilizar
@@ -22,15 +22,17 @@ const Card = ({ data }) => {
             });
             console.log(response.data.data); // Verificando os dados no console
 
-            // IDs dos filmes que eu quero exibir (ajustar conforme for necessário)
+            // IDs dos filmes que eu vou exibir
             const selectedIds = [15, 16, 2, 3, 5, 6, 7, 8, 10, 12, 14, 11];
 
-            // Filtrando os filmes para exibir apenas os com os IDs selecionados
+            // Filtrando os filmes para exibir somente os IDs selecionados
             const filteredMovies = response.data.data.filter(movie => selectedIds.includes(movie.id));
             setMovies(filteredMovies); // Atualizando o estado com os filmes filtrados
 
         } catch (error) {
             console.error(`Erro ao buscar dados de ${endpoint}:`, error);
+
+            setMessage("Erro ao carregar os filmes. Tente novamente mais tarde.");
         }
     };
 
