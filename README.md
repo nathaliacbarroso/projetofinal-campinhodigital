@@ -70,6 +70,5 @@ https://github.com/campinho-digital/projetoFinal
 
 `JSON's` foram elaborados e enviados para a API, com o intuito de incluir novos filmes que não estavam disponíveis no catálogo.
 
-Estrutura do Projeto
 
 
