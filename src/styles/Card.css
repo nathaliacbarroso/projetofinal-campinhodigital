@@ -9,8 +9,8 @@
 /* A grid que vai exibir os filmes */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Ajusta automaticamente as colunas */
-  gap: 20px; /* Espaçamento entre os cards */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Ajusta automaticamente as colunas */
+  gap: 30px; /* Espaçamento entre os cards */
   max-width: 1200px; /* Limita a largura da grid */
   width: 100%; /* Garante que a grid ocupe 100% da largura do container */
   margin: 0 auto; /* Garante que a grid tenha margem automática e fique no centro */

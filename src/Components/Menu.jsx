@@ -12,7 +12,7 @@ const Menu = () => {
         <ul>
           <li><Link to="/">Início</Link></li>
           <li><Link to="/red">Dezembro Vermelho</Link></li>
-          <li><Link to="/sobre">Sobre Nós</Link></li>
+          <li><Link to="/natal">Especial Natalino</Link></li>
         </ul>
       </nav>
     </header>

@@ -13,7 +13,7 @@ function App() {
       <Header/> {/* Adicionando Cabeçalho abaixo do Menu */}
       <main>
       <div className="about">
-  <p>Bem-vindo ao Pandaflix! Somos uma base de dados online que reúne informações sobre filmes de diversos gêneros. Servindo como uma espécie de enciclopédia virtual, nós disponibilizamos uma vasta lista de filmes com informações sobre título, diretor, data de lançamento, e avaliação. Se você é um fã de entretenimento em busca de uma gama diversificada de perspectivas com curadoria em um formato fácil de entender, o Pandinha irá ajudá-lo a encontrar o que você está a fim e abrir seus olhos para novas possibilidades.
+  <p>Bem-vindo ao Pandaflix! Somos uma base de dados online que reúne informações sobre filmes de diversos gêneros. Servindo como uma espécie de enciclopédia virtual, nós disponibilizamos uma vasta lista de filmes com informações sobre título, diretor, data de lançamento, e avaliação. Se você é um fã de entretenimento em busca de novidades de forma acessível, o Pandinha irá ajudá-lo a encontrar o que você está a fim e abrir seus olhos para novas possibilidades.
   </p>
 </div>
         <Card /> {/* Exibindo o componente de filmes */}
