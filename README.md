@@ -4,6 +4,9 @@ Este projeto foi desenvolvido como conclusão do curso da Campinho Digital, com 
 
 Neste projeto, a estilização do sistema foi pensada para refletir eventos e datas comemorativas de dezembro, trazendo uma atmosfera mais acolhedora com a inclusão de elementos natalinos e a homenagem ao Dezembro Vermelho. Além disso, usei como referência alguns sites já existentes, como IMD, Netflix e o Rotten Tomatoes, com o intuito de deixá-lo o mais fidedigno possível, apresentando os dados da API do meu jeitinho.
 
+# 📸 Prévia do Projeto
+<img src="src\img\spoiler.png" alt="Pastas">
+
 # 🛠️ Ferramentas e Recursos Utilizados
 - React + Vite para Desenvolvimento da Aplicação Frontend;
 - Axios para fazer requisições HTTP, permitindo integrar o projeto React com API;
