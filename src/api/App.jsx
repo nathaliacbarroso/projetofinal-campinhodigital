@@ -4,10 +4,9 @@ import Menu from '../Components/Menu'; // Importando Menu
 import Header from '../Components/Header'; // Importando Cabeçalho
 import Footer from '../Components/Footer'; // Importando Rodapé
 import React from 'react';
+import "../styles/App.css"
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Menu /> {/* Adicionando Menu no topo */}

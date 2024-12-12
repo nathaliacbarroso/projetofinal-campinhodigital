@@ -4,10 +4,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2vw;
+  padding: 2rem 2vw;
   background-color: #890f1b;
   color: white;
-  height: 9vh; /* Altura do menu proporcional à altura da tela */
+  height: 14vh; /* Altura do menu proporcional à altura da tela */
+  padding-top: 2rem;
 }
 
 .logo-img {

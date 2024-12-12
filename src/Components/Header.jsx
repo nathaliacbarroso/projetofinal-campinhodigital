@@ -4,7 +4,7 @@ import '../styles/Header.css'; // Estilos do Header
 // Imagens do carrossel e seus respectivos links
 const carrouselImages = [
   {
-    url: 'src/img/n1.png',
+    url: 'src/img/c.png',
     link: '/filmes/1',
   },  
   {
@@ -13,7 +13,7 @@ const carrouselImages = [
       text: 'Filme 2 - Aventura',
     },
     {
-      url: 'src/img/red.png',
+      url: 'src/img/c3.png',
       link: '/filmes/2',
       text: 'Filme 3 - Aventura',
     },

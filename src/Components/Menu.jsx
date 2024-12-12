@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Menu.css'; // Estilos do Menu
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
   return (
@@ -9,9 +10,9 @@ const Menu = () => {
       </div>
       <nav>
         <ul>
-          <li><a href="home">Início</a></li>
-          <li><a href="src\api\Red.jsx">Dezembro Vermelho</a></li>
-          <li><a href="/sobre">Sobre Nós</a></li>
+          <li><Link to="/">Início</Link></li>
+          <li><Link to="/red">Dezembro Vermelho</Link></li>
+          <li><Link to="/sobre">Sobre Nós</Link></li>
         </ul>
       </nav>
     </header>

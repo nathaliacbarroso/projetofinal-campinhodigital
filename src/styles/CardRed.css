@@ -2,14 +2,13 @@
 .card-container {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding: 20px;
 }
 
 /* A grid que vai exibir os filmes */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Ajusta automaticamente as colunas */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ajusta automaticamente as colunas */
   gap: 20px; /* Espaçamento entre os cards */
   max-width: 1200px; /* Limita a largura da grid */
   width: 100%; /* Garante que a grid ocupe 100% da largura do container */
