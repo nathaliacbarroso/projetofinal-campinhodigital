@@ -23,7 +23,8 @@ Listagem dos filmes, exibindo informações referente as:
 - E avalições.
 
 # 📚 Estrutura do Projeto
-![Texto Alternativo](src\img\pastas.png)
+<img src="src\img\pastas.png" alt="Pastas">
+
 
 # 📑 Passo a Passo para Reproduzir
 - Clone o repositório abaixo:
