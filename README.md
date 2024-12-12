@@ -6,9 +6,18 @@ Neste projeto, a estilização do sistema foi pensada para refletir eventos e da
 
 
 # 📑 Passo a Passo para Reproduzir
-- Através do Postman, realizei alguns endpoints na API:
+- Clone o repositório abaixo:
+```git clone https://github.com/seu-usuario/campinho-digital-projeto-final.git```
 
-`Método POST` foi necessário utilizar as credenciais abaixo para conseguir minha API Key.
+- Instale as dependências:
+```npm create vite@latest projeto-final --template react
+cd projeto-final
+npm install
+npm install axios```
+
+- Configure o acesso à API, através de endpoints no POSTMAN:
+
+`Método POST` foi necessário utilizar as credenciais abaixo para conseguir a API Key.
 
 ```
 https://ecom-back-strapi.onrender.com/api/auth/local

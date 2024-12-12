@@ -30,13 +30,15 @@ const ApiNatal = ({ data }) => {
 
         } catch (error) {
             console.error(`Erro ao buscar dados de ${endpoint}:`, error);
+
+            setMessage("Erro ao carregar os filmes. Tente novamente mais tarde.");
         }
     };
 
     // Chama a função fetchData quando o componente é montado
     useEffect(() => {
         fetchData(apiUrl);
-    }, []); // O array vazio garante que só seja chamado uma vez, no carregamento do componente
+    }, []); 
 
     return (
         <div className="card-container">
